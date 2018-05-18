@@ -1,0 +1,180 @@
+/* * {
+    outline: blue 3px solid;
+}  */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    min-width: 500px;
+}
+nav {
+    background-color: gray;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h1 {
+    display:inline;
+    position: relative;
+    left: 15px;
+    color: black;
+}
+nav h1 a {
+    text-decoration: none;
+    color: white;
+}
+.options {
+    margin-right: 25px;
+}
+.options a {
+    text-decoration: none;
+    color: rgba(255,255,255,.7);
+    transition: 0.3s;
+    padding: 15.5px 10px 15.5px 10px;
+}
+.options a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.main {
+    position: relative;
+    top: 50px;
+}
+header {
+    background-image: url("images/header-background.png");
+    background-size: cover;
+    height: 550px;
+}
+.profile {
+    border-radius: 150px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 20px;
+    transition: 0.3s; 
+    border: 7px solid black;
+}
+.profile:hover {
+    transform: rotate(15deg);
+}
+.words {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    padding-top: 10px;
+}
+.about {
+    background-image: url("images/portland.jpg");
+    background-size: cover;
+    height: 500px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.theAbout {
+    padding-left: 20px;  
+}                  /*ask how to prevent the white space on right when shrunk*/
+.about div {    /*This is so messed up*/
+    font-size: 20px;
+    max-width: 300px;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    height: 55%;
+    margin-right: 15%;
+    margin-top: 10%;
+}
+.projects {
+    background-image: url("images/repeating.jpg");
+    background-size: repeat;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.theProject {
+    padding-left: 20px;
+}
+.projectsAll {
+    padding-bottom: 30px;
+}
+.projectsRow1, .projectsRow2 {
+    display: flex;
+    justify-content: center;
+}
+figure img {
+    transition: .3s;
+}
+figure img:hover {
+    transform: scale(1.1);
+}
+figcaption {
+    text-align: center;
+    margin-top: 15px;
+}
+.contact {
+    background-image: url("images/contact.jpg");
+    background-size: cover;
+    padding-top: 40px;
+}
+.contact p {
+    padding-left: 20px;
+}
+.theContact {
+    padding-left: 20px;
+}
+.email {
+    text-align: center;
+}
+.theEmail {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px;
+    transition: .5s;
+}
+.theEmail:hover {
+    color: black;
+    background-color: rgba(255,255,255, .5);
+}
+.social {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.social img {
+    margin: 10px 5px 0 5px;
+    transition: .5s;
+    background-color: rgba(126, 121, 121, .2);
+    border-radius: 50%;
+}
+.social img:hover {
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 50%;
+}
+
+footer {
+    background-color: gray;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50px;
+}
+footer p {
+    margin-bottom: 0;
+    text-align: right;
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 2px;
+    left: -10px;
+}
